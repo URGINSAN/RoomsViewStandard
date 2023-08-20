@@ -10,8 +10,8 @@ public class SceneController : MonoBehaviour
 
     void Start()
     {
-        Application.targetFrameRate = -1;
-
+        Application.targetFrameRate = 120;
+        return;
         //var resolution = Screen.currentResolution;
         //var height = (int)(resolution.height * ScreenDivisionValue);
         //var width = (int)(resolution.width * ScreenDivisionValue);
